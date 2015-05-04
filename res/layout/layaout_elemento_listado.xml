@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"    
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewFechaListado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fecha"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	<LinearLayout
+	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"    
+    	android:orientation="vertical" >
+    	
+	    <TextView
+	        android:id="@+id/textViewTituloListado"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tarea"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	    <TextView
+	        android:id="@+id/textViewHorasListado"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/horas"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    
+	</LinearLayout>
+    
+
+</LinearLayout>

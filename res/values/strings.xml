@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bitacoras</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="horas">Horas: </string>
+    <string name="fecha">Fecha: </string>
+    <string name="perfil">Perfil: </string>
+    <string name="observacion">Observacion:  </string>
+    <string name="tarea">Tarea:</string>
+    <string name="tareas">Tus Tareas:</string>
+    <string name="numero_cedula">Numero de Cedula</string>
+    <string name="consultar">Consultar</string>
+    <string name="cambio">Cambio</string>
+    <string name="reg_cambio">Registrar Cambio</string>
+    <string name="regresar">Regresar</string>
+    <string name="carga_tareas">Cargando tus Tareas</string>
+    <string name="bienvenido">Bienvenid@:</string>
+    <string name="nulo">  </string>
+    <string name="carga_datos">Cargando los Datos  </string>
+
+</resources>
