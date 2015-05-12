@@ -8,15 +8,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.bitacoras_vista_inicial.MainActivity" >
 
-    <Button
-        android:id="@+id/buttonRegresar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:text="@string/regresar"
-        android:onClick="regresar" />
-
     <TextView
         android:id="@+id/textViewTarea"
         android:layout_width="wrap_content"
@@ -165,5 +156,24 @@
         
         -->
     </TableLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonRegresar"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_anadir"
+        android:onClick="anadir" />
+
+    <Button
+        android:id="@+id/buttonRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:onClick="regresar"
+        android:text="@string/regresar" />
 
 </RelativeLayout>

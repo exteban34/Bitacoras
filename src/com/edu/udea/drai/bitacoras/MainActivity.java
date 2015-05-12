@@ -136,15 +136,8 @@ public class MainActivity extends Activity {
 				return true;
 			} else {
 				showAlertDialog(MainActivity.this, "Conexion a Internet",
-						"Tu Dispositivo no tiene Conexion a Internet.");
-
-
-					
-				/*Toast.makeText(
-						getApplicationContext(),
-						"No existe conexion a Internet.  \n"
-								+ "Por favor verifique la conexion y pruebe ingresar nuevamente",
-						Toast.LENGTH_LONG).show();*/
+						"Tu Dispositivo no tiene Conexion a Internet.");			
+				
 				return false;
 			}
 		}
