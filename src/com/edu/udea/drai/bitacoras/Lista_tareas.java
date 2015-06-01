@@ -58,7 +58,7 @@ public class Lista_tareas extends Activity {
 		setContentView(R.layout.layaout_lista_tareas);
 		
 		/**
-		 * Obtengo la lista de tareas con el objeto dataPass
+		 * Obtengo la lista de tareas con el objeto DataPass
 		 */
 		DataPass dw = (DataPass) getIntent().getSerializableExtra("tareas");
 		tareas = dw.getTareas();

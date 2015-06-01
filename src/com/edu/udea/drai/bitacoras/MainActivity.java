@@ -62,7 +62,7 @@ public class MainActivity extends Activity {
 		edCedula.setText("");
 		if (estaConectado()) {
 			new LeerAuxiliarCedula()
-					.execute("http://172.21.32.77:1350/calendario/");
+					.execute("http://172.21.35.139:1350/calendario/");
 		}
 
 	}

@@ -96,7 +96,7 @@ public class Detalle_tarea extends Activity {
 		tvtarea = (TextView) findViewById(R.id.textViewTarea);
 		tvperfil = (TextView) findViewById(R.id.TextViewPerfil);
 		tvobservacion = (TextView) findViewById(R.id.textViewObservacion);
-		new LeerDetallesTarea().execute("http://172.21.32.77:1350/calendario/");
+		new LeerDetallesTarea().execute("http://172.21.35.139:1350/calendario/");
 	}
 
 	private class LeerDetallesTarea extends AsyncTask<String, Void, String> {

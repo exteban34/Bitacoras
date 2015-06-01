@@ -858,10 +858,11 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f070003;
+        public static final int abc_search_url_text_holo=0x7f070004;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
+        public static final int verde=0x7f070003;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1099,13 +1100,13 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050056;
+        public static final int action_settings=0x7f050059;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
         public static final int botonConsulta=0x7f05003e;
-        public static final int button1=0x7f05004e;
-        public static final int buttonRegresar=0x7f05004f;
+        public static final int button1=0x7f05004f;
+        public static final int buttonRegresar=0x7f050053;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int default_activity_button=0x7f050028;
@@ -1123,7 +1124,7 @@ containing a value of this type.
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
         public static final int listMode=0x7f050001;
-        public static final int listViewTareas=0x7f050055;
+        public static final int listViewTareas=0x7f050058;
         public static final int list_item=0x7f050029;
         public static final int middle=0x7f050012;
         public static final int never=0x7f050009;
@@ -1150,18 +1151,21 @@ containing a value of this type.
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
         public static final int tableLayout1=0x7f050041;
+        public static final int tableRow10=0x7f050052;
         public static final int tableRow2=0x7f050045;
         public static final int tableRow4=0x7f05004b;
-        public static final int textView1=0x7f050054;
-        public static final int textViewBienvenida=0x7f050053;
+        public static final int tableRow8=0x7f05004e;
+        public static final int tableRow9=0x7f050050;
+        public static final int textView1=0x7f050051;
+        public static final int textViewBienvenida=0x7f050057;
         public static final int textViewDetalleHora=0x7f05003c;
         public static final int textViewFecha=0x7f050047;
-        public static final int textViewFechaListado=0x7f050050;
+        public static final int textViewFechaListado=0x7f050054;
         public static final int textViewHoras=0x7f05004a;
-        public static final int textViewHorasListado=0x7f050052;
+        public static final int textViewHorasListado=0x7f050056;
         public static final int textViewObservacion=0x7f05004d;
         public static final int textViewTarea=0x7f05003f;
-        public static final int textViewTituloListado=0x7f050051;
+        public static final int textViewTituloListado=0x7f050055;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;
@@ -1311,9 +1315,9 @@ containing a value of this type.
          */
         public static final int AppBaseTheme=0x7f0b008b;
         /**  Application theme. 
- All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f0b008c;
+        public static final int ButtonStyle=0x7f0b008d;
         /**  Mimic text appearance in select_dialog_item.xml 
          */
         public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0b0063;

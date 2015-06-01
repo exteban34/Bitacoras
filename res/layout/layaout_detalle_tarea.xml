@@ -16,7 +16,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="14dp"
         android:text="@string/tarea"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold|italic" />
 
     <TextView
         android:id="@+id/TextView01"
@@ -114,66 +115,57 @@
                 android:text="@string/observacion"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
         </TableRow>
-<!-- 
-        <TableRow
-            android:id="@+id/tableRow1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
-
-            <TextView
-                android:id="@+id/TextView06"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/cambio"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
-
-            <EditText
-                android:id="@+id/editTextCambio"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="number" />
-        </TableRow>
- 
-        <TableRow
-            android:id="@+id/tableRow3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
-
-            <TextView
-                android:id="@+id/TextView07"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/nulo"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
-
-            <Button
-                android:id="@+id/buttonRegistrar"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:onClick="registrar"
-                android:text="@string/reg_cambio" />
-        </TableRow>
-        
-        -->
-    </TableLayout>
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/buttonRegresar"
-        android:layout_centerHorizontal="true"
-        android:text="@string/btn_anadir"
-        android:onClick="anadir" />
-
-    <Button
-        android:id="@+id/buttonRegresar"
-        android:layout_width="wrap_content"
+    </TableLayout> 
+    
+    <TableLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="15dp"
-        android:onClick="regresar"
-        android:text="@string/regresar" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="fill_horizontal" >
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:onClick="anadir"
+                android:text="@string/btn_anadir" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nulo"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/buttonRegresar"
+                style="@style/ButtonStyle"                
+                android:layout_marginBottom="15dp"
+                android:onClick="regresar"
+                android:text="@string/regresar" />
+        </TableRow>
+    </TableLayout>
 
 </RelativeLayout>

@@ -14,7 +14,18 @@
 
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        	<item name="android:textSize" >20dp</item>
+    		<item name="android:textStyle" >italic</item>
+    		<item name="android:shadowColor" >#93CEFB</item>
+    		<item name="android:layout_width" >fill_parent</item>
     </style>
+    
+     <style name="ButtonStyle" >
+    		<item name="android:layout_width" >fill_parent</item>
+    		<item name="android:layout_height" >wrap_content</item>
+    		<item name="android:gravity">center</item>
+    		<item name="android:background">#5D96E1</item>
+    		<item name="android:textColor" >#FFFFFF</item>
+  		</style>
 
 </resources>
